@@ -1,0 +1,17 @@
+# This is a basic workflow to help you get started with Actions
+
+            - name: merge-version
+  # You may pin to the exact commit or the version.
+  # uses: CaiJingLong/action-version-merge@94204891db6c3f85c22cad65de9c56876a19ca15
+  uses: CaiJingLong/action-version-merge@v1.0.1
+  with:
+    # Github token
+    github-token: 
+    # If true, will create a git release
+    release: # optional, default is true
+    # If true, the v1.0 branch will be merge
+    minor: # optional, default is true
+    # If true, the v1.0.0-rc branch will be merge
+    pre: # optional, default is false
+          
+
